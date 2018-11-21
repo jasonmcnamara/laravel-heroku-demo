@@ -8,15 +8,18 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet" >
 
         
     </head>
     <body>
         @yield('content')
 
-        <ul>
-            <li><a href='/'>HOME</a></li>
-            <li><a href='/test'>TEST</a></li>
-        </ul>
+        <div class="nav" >
+            <ul>
+                <li><a href='/'>HOME</a></li>
+                <li><a href='/test'>TEST</a></li>
+            </ul>
+        </div>
     </body>
 </html>
