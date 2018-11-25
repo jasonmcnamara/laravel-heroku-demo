@@ -16,7 +16,8 @@
 .nav ul {
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  padding: 0;
+  border: red solid 1px;
 }
 
 .nav ul li {
