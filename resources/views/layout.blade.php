@@ -13,13 +13,15 @@
         
     </head>
     <body>
-        @yield('content')
-
-        <div class="nav" >
-            <ul>
-                <li><a href='/'>HOME</a></li>
-                <li><a href='/test'>TEST</a></li>
-            </ul>
+        
+        <div class="app">
+            <div class="nav" >
+                <ul>
+                    <li><a href='/'>HOME</a></li>
+                    <li><a href='/test'>TEST</a></li>
+                </ul>
+            </div>
+            @yield('content')
         </div>
     </body>
 </html>

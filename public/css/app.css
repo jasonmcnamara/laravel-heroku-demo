@@ -10466,28 +10466,44 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: lightgrey;
+  color: #555555;
+}
+
+.app {
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.nav {
+  display: block;
+  background-color: #555555;
+}
+
 .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding: 0;
   border: red solid 1px;
 }
 
 .nav ul li {
   list-style-type: none;
+  padding: 0 5%;
 }
 
 .nav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
